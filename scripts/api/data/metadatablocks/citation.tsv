@@ -1,0 +1,71 @@
+#metadataBlock	name    dataverseAlias    displayName														
+	ibict		IBICT												
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	datacite:title	Título		Enter title...	text	0		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		ibict
+	ibictSubtitle	Subtítulo			text	1		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		ibict
+	datacite:creator	Criador			text	2		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		ibict
+	datacite:date	Data de Publicação		YYYY-MM-DD	date	3	(#VALUE)	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		ibict
+	oaire:resourceType	Tipo de Recurso			text	4		TRUE	TRUE	TRUE	TRUE	FALSE	FALSE		ibict
+	datacite:rights	Direitos de Acesso			text	5		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		ibict
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
+	oaire:resourceType	Anotação		0											
+	oaire:resourceType	Artigo		1											
+	oaire:resourceType	Artigo de dados		2											
+	oaire:resourceType	Artigo de investigação		3											
+	oaire:resourceType	Artigo de revisão		4											
+	oaire:resourceType	Ata de conferência		5											
+	oaire:resourceType	Bibliografia		6											
+	oaire:resourceType	Capítulo de relatório		7											
+	oaire:resourceType	Carta		8											
+	oaire:resourceType	Carta ao editor		9											
+	oaire:resourceType	Composição Músical		10											
+	oaire:resourceType	Comunicação de conferência		11											
+	oaire:resourceType	Comunicação não publicada nas atas do congresso		12											
+	oaire:resourceType	Conjunto de dados		13											
+	oaire:resourceType	Contributo em revista		14											
+	oaire:resourceType	Dissertação de mestrado		15											
+	oaire:resourceType	Documentação Técnica		16											
+	oaire:resourceType	Documento de conferência		17											
+	oaire:resourceType	Editorial		18											
+	oaire:resourceType	Fluxo de trabalho		19											
+	oaire:resourceType	Imagem		20											
+	oaire:resourceType	Imagem animada		21											
+	oaire:resourceType	Imagem estática		22											
+	oaire:resourceType	Jornal		23											
+	oaire:resourceType	Livro		24											
+	oaire:resourceType	Mapa		25											
+	oaire:resourceType	Material cartográfico		26											
+	oaire:resourceType	Memorando		27											
+	oaire:resourceType	Memorando de investigação		28											
+	oaire:resourceType	Notação Músical		29											
+	oaire:resourceType	Palesta		30											
+	oaire:resourceType	Parte de livro		31											
+	oaire:resourceType	Patente		32											
+	oaire:resourceType	Póster em conferência		33											
+	oaire:resourceType	Póster não publicado nas atas do congresso		34											
+	oaire:resourceType	Preprint		35											
+	oaire:resourceType	Produto de projeto		36											
+	oaire:resourceType	Proposta de investigação		37											
+	oaire:resourceType	Publicação periódica		38											
+	oaire:resourceType	Recensão		39											
+	oaire:resourceType	Recensão de livro		40											
+	oaire:resourceType	Recurso interativo		41											
+	oaire:resourceType	Relatório		42											
+	oaire:resourceType	Relatório de política		43											
+	oaire:resourceType	Relatório Interno		44											
+	oaire:resourceType	Relatório para financiador		45											
+	oaire:resourceType	Relatório para investigação		46											
+	oaire:resourceType	Relatório técnico		47											
+	oaire:resourceType	Sítio web		48											
+	oaire:resourceType	Software		49											
+	oaire:resourceType	Tese		50											
+	oaire:resourceType	Tese de Doutorado		51											
+	oaire:resourceType	Texto		52											
+	oaire:resourceType	Trabalho de fim de curso		53											
+	oaire:resourceType	Vídeo		54											
+	oaire:resourceType	Outros		55											
+	oaire:resourceType	Outros tipos de relatório		56											
+	datacite:rights	Acesso a metadados		0											
+	datacite:rights	Acesso aberto 		1											
+	datacite:rights	Acesso embargado		2											
+	datacite:rights	Acesso restritos		3											
